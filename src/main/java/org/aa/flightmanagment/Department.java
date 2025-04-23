@@ -53,6 +53,7 @@ class Employee {
 class AdvancedFlatMapExample {
     public static void main(String[] args) {
         Department hr = new Department("HR", Arrays.asList(new Employee("Alice", 30, 5000),
+                new Employee("Bob", 30, 6000),
 
 
                 new Employee("Bob", 25, 4500)));
