@@ -66,6 +66,7 @@ class AdvancedFlatMapExample {
 
         System.out.println("All Employees:");
         employees.forEach(System.out::println);
+        System.out.println("Employees with salary > 5000:");
 
     }
 }
