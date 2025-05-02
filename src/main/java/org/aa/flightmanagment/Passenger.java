@@ -31,6 +31,7 @@ public class Passenger {
                 new Passenger("9", "aman", new Group("A")),
                 new Passenger("10", "aman", new Group("A")),
                 new Passenger("11", "aman", new Group("m")),
+                new Passenger("111111111", "new", new Group("newwwwwwwwwwwwwwww")),
                 new Passenger("12", "aman", new Group("A")));
 
 
@@ -52,6 +53,9 @@ public class Passenger {
         return passengerId;
     }
 
+    public String getPassengerName() {
+        return passengerName;
+    }
 
     public Group getGroup() {
         return group;
